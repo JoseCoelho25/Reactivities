@@ -26,4 +26,19 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// this using statement here to cleanup itself at the end of its use
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+
+try
+{
+    var context = services.GetRequiredService<DataContext>();
+    context.Database.Migrate();
+}
+catch (Exception ex)
+{
+    var logger = services.GetRequiredService<ILogger<Program>>();
+    logger.LogError(ex, "An error ocurred during migration");
+}
+
 app.Run();
