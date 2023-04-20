@@ -11,21 +11,24 @@ export default class activityStore {
 
     constructor() {
         makeAutoObservable(this);
-        
     }
 
-   loadActivities = async () => {
-    this.loadingInitial = true;
+    loadActivities = async () => {
+    this.setloadingInitial(true);
     try {
         const activities = await agent.Activities.list();
         activities.forEach(activity => {
             activity.date = activity.date.split('T')[0];
             this.activities.push(activity);
-          })
-          this.loadingInitial = false;
+        })
+        this.setloadingInitial(false);
     } catch (error) {
         console.log(error);
-        this.loadingInitial = false;
+        this.setloadingInitial(false);
     }
-   }
+    }
+
+    setloadingInitial = (state: boolean) => {
+        this.loadingInitial = state;
+    }
 }
