@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Button, Icon, Label, Segment } from 'semantic-ui-react'
+import { Button, Icon, Segment } from 'semantic-ui-react'
 import Item from 'semantic-ui-react/dist/commonjs/views/Item/Item'
 import { Activity } from '../../../app/models/activity'
 import { useStore } from '../../../app/stores/store'
