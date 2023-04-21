@@ -16,13 +16,9 @@ return (
                 <Header sub color='teal'>
                     {group}
                 </Header>
-                <Segment>
-                    <Item.Group divided>
                         {activities.map(activity => (
                             <ActivityListItem  key={activity.id} activity={activity} />
                         ))}
-                </Item.Group>
-                </Segment>
             </Fragment>
         ))}
     </>
