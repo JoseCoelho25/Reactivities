@@ -16,13 +16,7 @@ namespace API.Controllers
 
         [HttpGet("{id}")]  //api/activities/fdfdgd
         public async Task<IActionResult> GetActivity(Guid id) {
-            var result = await Mediator.Send(new Details.Query{Id = id});
-
-            if (result.IsSuccess && result.Value != null)
-                return Ok(result.Value);
-            if(result.IsSuccess && result.Value == null)
-                return NotFound();
-            return BadRequest(result.Error);
+            return HandleResult(await Mediator.Send(new Details.Query{Id = id}));
 
             // var activity = await Mediator.Send(new Details.Query{Id = id});
 
