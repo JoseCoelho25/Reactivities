@@ -1,25 +1,13 @@
-import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Icon, Segment } from 'semantic-ui-react'
 import Item from 'semantic-ui-react/dist/commonjs/views/Item/Item'
 import { Activity } from '../../../app/models/activity'
-import { useStore } from '../../../app/stores/store'
 
 interface Props {
     activity: Activity
 }
 
 export default function ActivityListItem({activity}: Props) {
-
-    const {activityStore} = useStore();
-    const {deleteActivity, loading} = activityStore;
-
-    const [target, setTarget] = useState('');
-
-    function handleActivityDelete(e:React.MouseEvent<HTMLButtonElement> , id:string) {
-        setTarget(e.currentTarget.name);
-        deleteActivity(id);
-    }
 
   return (
     <Segment.Group>
