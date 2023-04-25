@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\demo\\Reactivities\\Domain\\Domain.csproj": {}
+    "D:\\demo\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "d:\\demo\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\demo\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\demo\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\demo\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\demo\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\demo\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ze\\.nuget\\packages\\",
-        "outputPath": "d:\\demo\\Reactivities\\Domain\\obj\\",
+        "outputPath": "D:\\demo\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ze\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,7 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
