@@ -17,7 +17,7 @@ namespace API.Extensions
             })
             .AddEntityFrameworkStores<DataContext>();
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("super secret key"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opt => 
@@ -30,7 +30,7 @@ namespace API.Extensions
                         ValidateAudience = false
                     };
                 });
-                
+
             //addscoped means this token service will be scoped to the http req
             services.AddScoped<TokenService>();
 
