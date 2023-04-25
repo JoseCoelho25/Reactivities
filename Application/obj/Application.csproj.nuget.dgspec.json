@@ -31,8 +31,8 @@
               "D:\\demo\\Reactivities\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\demo\\Reactivities\\Domain\\Domain.csproj"
               },
-              "d:\\demo\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "d:\\demo\\Reactivities\\Persistence\\Persistence.csproj"
+              "D:\\demo\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\demo\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "d:\\demo\\Reactivities\\Persistence\\Persistence.csproj": {
+    "D:\\demo\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\demo\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\demo\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "d:\\demo\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\demo\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\ze\\.nuget\\packages\\",
-        "outputPath": "d:\\demo\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "D:\\demo\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ze\\AppData\\Roaming\\NuGet\\NuGet.Config",

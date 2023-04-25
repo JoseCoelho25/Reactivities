@@ -92,3 +92,6 @@ D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.
 D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
 D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\demo\Reactivities\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
