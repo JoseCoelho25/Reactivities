@@ -87,3 +87,8 @@ D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFr
 D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\demo\Reactivities\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

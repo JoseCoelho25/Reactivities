@@ -1,3 +1,4 @@
+using API.Services;
 using Domain;
 using Persistence;
 
@@ -14,6 +15,8 @@ namespace API.Extensions
             .AddEntityFrameworkStores<DataContext>();
 
             services.AddAuthentication();
+            //addscoped means this token service will be scoped to the http req
+            services.AddScoped<TokenService>();
 
             return services;
         }
